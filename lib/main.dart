@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:kbc_quiz_app/screens/home.dart';
 import 'package:kbc_quiz_app/screens/login_screen.dart';
+import 'package:kbc_quiz_app/screens/quizintro.dart';
 import 'package:overlay_support/overlay_support.dart';
 
 Future<void> main() async {
@@ -12,6 +13,9 @@ Future<void> main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
+
+
 
   // This widget is the root of your application.
   @override
@@ -32,7 +36,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.purple,
         ),
        // home:const LoginScreen(),
-        home:const Home(),
+        home:const QuizIntro(),
       ),
     );
   }
