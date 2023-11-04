@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kbc_quiz_app/widgets/lifeline_sidebar.dart';
 
 
 class Question extends StatefulWidget {
@@ -23,7 +24,7 @@ class _QuestionState extends State<Question> {
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(title: Text("Rs. 20000",style: TextStyle(fontSize: 25),),centerTitle: true,),
-        drawer: Drawer(),
+        drawer: Lifeline_Drawer(),
         floatingActionButton: ElevatedButton(child: Text("QUIT GAME",style:
           TextStyle(fontSize: 22),),onPressed: (){},),
         body: Column(
