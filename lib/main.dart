@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:kbc_quiz_app/screens/Question.dart';
 import 'package:kbc_quiz_app/screens/home.dart';
 import 'package:kbc_quiz_app/screens/login_screen.dart';
+import 'package:kbc_quiz_app/screens/loser.dart';
 import 'package:kbc_quiz_app/screens/quizintro.dart';
 import 'package:kbc_quiz_app/screens/win.dart';
 import 'package:overlay_support/overlay_support.dart';
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.purple,
         ),
        // home:const LoginScreen(),
-        home:const Win(),
+        home:const LoserScreen(),
       ),
     );
   }
